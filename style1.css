@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 header {
-  background-color: #313234; }
+  background-color: #0D988E; }
 
 * {
   box-sizing: border-box;
@@ -79,15 +79,14 @@ h3 {
     width: 100%; } }
 /* Header */
 header > nav {
-  background-color: #313234;
+  background-color: #0D988E;
   min-height: 50px; }
   header > nav > ul {
+    margin-top: 25px;
     list-style-type: none;
     float: right; }
     header > nav > ul > li {
       display: inline-block; }
-      header > nav > ul > li:first-child > a {
-        color: #00C7E4; }
       header > nav > ul > li > a {
         display: block;
         line-height: 50px;
@@ -96,16 +95,17 @@ header > nav {
         color: #fff;
         text-transform: uppercase; }
         header > nav > ul > li > a:hover {
-          background-color: #666968; }
+          background-color: #A9E5E3;
+          color: #004C46; }
   header > nav img {
     padding: 10px 0; }
 
 /* Welcome section */
 .hero {
-  background-image: url(https://thumbs.dreamstime.com/b/suchy-forset-63498673.jpg);
+  background-image: url(img/smile.jpg);
   height: 400px;
   background-size: cover;
-  background-position: center; }
+  background-position: top; }
   .hero .slogan {
     background-color: rgba(0, 0, 0, 0.5);
     float: right;
@@ -128,9 +128,9 @@ header > nav {
   background-color: #313332;
   color: #fff; }
   .benefits button:hover {
-    background-color: #00C7E4; }
+    background-color: #004C46; }
     .benefits button:hover + h2 {
-      color: #00C7E4; }
+      color: #004C46; }
 .benefits .row {
   text-align: center; }
 .benefits h2 {
@@ -238,7 +238,7 @@ header > nav {
 .numbers .row {
   text-align: center; }
 .numbers p {
-  color: #00C7E4;
+  color: #004C46;
   font-size: 20px;
   font-weight: bolder;
   text-transform: uppercase; }
@@ -279,7 +279,7 @@ footer {
     margin: 20px 10px 0 0;
     cursor: pointer;
     font-size: 20px;
-    background-color: #00C7E4;
+    background-color: #004C46;
     color: #fff; }
 
 .copyright {

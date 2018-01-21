@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-$dark-grey: #313234;
+$dark-green: #007c71;
 $font: 'Open Sans', sans-serif;
 $grey: #313332;
-$turquoise: #00C7E4;
+$hover_green:#004C46;	// $hover_green: #00C7E4;
 $lightgrey: #5B5B5B;
 
 header {
-	background-color: $dark-grey;
+	background-color: #0D988E;
 }
 
 * {
@@ -78,17 +78,13 @@ h3 {
 
 header {
 	> nav {
-		background-color: $dark-grey;
+		background-color: #0D988E;
 		min-height: 50px;
 		> ul {
+			margin-top: 25px;
 			list-style-type: none;
 			float: right;
 			> li {
-				&:first-child {
-					> a {
-						color: $turquoise;
-					}
-				}
 				display: inline-block;
 				> a {
 					display: block;
@@ -98,7 +94,8 @@ header {
 					color: #fff;
 					text-transform: uppercase;
 					&:hover {
-						background-color: #666968;
+						background-color: #A9E5E3;
+						color: $hover_green;
 					}
 				}
 			}
@@ -112,10 +109,10 @@ header {
 /* Welcome section */
 
 .hero {
-	background-image: url(https://thumbs.dreamstime.com/b/suchy-forset-63498673.jpg);
+	background-image: url(img/smile.jpg);
 	height: 400px;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	.slogan {
 		background-color: rgba(0, 0, 0, 0.5);
 		float: right;
@@ -142,9 +139,9 @@ header {
 		background-color: $grey;
 		color: #fff;
 		&:hover {
-			background-color: $turquoise;
+			background-color: $hover_green;
 			+ h2 {
-				color: $turquoise;
+				color: $hover_green;
 			}
 		}
 	}
@@ -314,7 +311,7 @@ header {
 	}
 	
 	p {
-		color: $turquoise;
+		color: $hover_green;
 		font-size: 20px;
 		font-weight: bolder;
 		text-transform: uppercase;
@@ -370,7 +367,7 @@ footer {
 		margin: 20px 10px 0 0;
 		cursor: pointer;
 		font-size: 20px;
-		background-color: $turquoise;
+		background-color: $hover_green;
 		color: #fff;
 	}
 }

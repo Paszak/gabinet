@@ -4,6 +4,7 @@ $font: 'Open Sans', sans-serif;
 $grey: #313332;
 $hover_green:#004C46;	// $hover_green: #00C7E4;
 $lightgrey: #5B5B5B;
+$background_test: #a9e5c1;
 
 header {
 	background-color: #0D988E;
@@ -50,7 +51,7 @@ h1, h2, h3 {
 
 h3 {
 	text-align: center;
-	color: $grey;
+	color: #004C46;
 	margin-bottom: 25px;
 	font-weight: bolder;
 	font-size: 52px;
@@ -239,31 +240,48 @@ header {
 		text-align: center;
 	}
 	
-	.portret {
-		width: 200px;
-		height: 200px;
-		border-radius: 50%;
-		background-color: grey;
-		border: 0 #fff;
-		margin: 0 auto;
-		> p {
-			line-height: 200px;
-			display: none;
-			color: white;
-		}
+	// .portret {
+	// 	width: 200px;
+	// 	height: 200px;
+	// 	border-radius: 50%;
+	// 	background-color: grey;
+	// 	border: 0 #fff;
+	// 	margin: 0 auto;
+	// 	> p {
+	// 		line-height: 200px;
+	// 		display: none;
+	// 		color: white;
+	// 	}
 		
-		&:hover {
-			> p{
-				display: block;
-			}
-		}
-	}
+	// 	&:hover {
+	// 		> p{
+	// 			display: block;
+	// 		}
+	// 	}
+	// }
 	
+	.portret {
+		> img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+  			max-width: 100%;
+  			-moz-transition: all 0.3s;
+  			-webkit-transition: all 0.3s;
+  			transition: all 0.3s;
+			&:hover {
+				-moz-transform: scale(1.1);
+	 			 -webkit-transform: scale(1.1);
+	  			transform: scale(1.1);
+				}
+		}
+	}	
+
 	[class^=col-] {
 		> p {
 			text-align: center;
 			width: 200px;
-			color: $lightgrey;
+			color: #00655E;
 			font-weight: bold;
 			margin: 0 auto;
 			margin-top: 15px;
@@ -311,7 +329,7 @@ header {
 	}
 	
 	p {
-		color: $hover_green;
+		color: #00655E;
 		font-size: 20px;
 		font-weight: bolder;
 		text-transform: uppercase;
@@ -319,7 +337,7 @@ header {
 	
 	h1 {
 		font-size: 60px;
-		color: $grey;
+		color: #004C46;
 	}
 }
 

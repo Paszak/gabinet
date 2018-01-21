@@ -35,7 +35,7 @@ h1, h2, h3 {
 
 h3 {
   text-align: center;
-  color: #313332;
+  color: #004C46;
   margin-bottom: 25px;
   font-weight: bolder;
   font-size: 52px; }
@@ -192,23 +192,22 @@ header > nav {
 /*team*/
 .team .row {
   text-align: center; }
-.team .portret {
+.team .portret > img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: grey;
-  border: 0 #fff;
-  margin: 0 auto; }
-  .team .portret > p {
-    line-height: 200px;
-    display: none;
-    color: white; }
-  .team .portret:hover > p {
-    display: block; }
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .team .portret > img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
 .team [class^=col-] > p {
   text-align: center;
   width: 200px;
-  color: #5B5B5B;
+  color: #00655E;
   font-weight: bold;
   margin: 0 auto;
   margin-top: 15px; }
@@ -238,13 +237,13 @@ header > nav {
 .numbers .row {
   text-align: center; }
 .numbers p {
-  color: #004C46;
+  color: #00655E;
   font-size: 20px;
   font-weight: bolder;
   text-transform: uppercase; }
 .numbers h1 {
   font-size: 60px;
-  color: #313332; }
+  color: #004C46; }
 
 footer {
   background-color: #313332;

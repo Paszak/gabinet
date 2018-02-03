@@ -4,7 +4,8 @@
   margin: 0; }
 
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: #c9edd7; }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -80,11 +81,11 @@ header {
   width: 100%;
   top: 0px;
   z-index: 1000;
-  background-color: #0D988E; }
+  background-color: #A3EFC2; }
   header > nav {
     min-height: 50px; }
     header > nav > ul {
-      margin-top: 12px;
+      margin: 0px;
       padding: 0;
       list-style-type: none;
       float: right; }
@@ -94,13 +95,13 @@ header {
         header > nav > ul > li > a {
           display: block;
           line-height: 50px;
-          padding: 0 20px;
+          padding: 15px 20px;
           text-decoration: none;
-          color: #fff;
+          color: #07AE4B;
           text-transform: uppercase; }
           header > nav > ul > li > a:hover {
-            background-color: #A9E5E3;
-            color: #004C46; }
+            background-color: #70DF9D;
+            color: #113C21; }
     header > nav img {
       max-width: 275px;
       max-height: 80px; }
@@ -143,7 +144,7 @@ header {
   margin: 25px 0; }
 .benefits p {
   padding: 15px;
-  color: #B0B0B0; }
+  color: #07AE4B; }
 
 /*Gallery section*/
 .icon-btn, .gallery .icon-btnl, .gallery .icon-btnr {
@@ -346,6 +347,8 @@ footer {
         display: block;
         margin-top: 0px;
         margin-left: 0; }
+        header > nav ul > li > a {
+          line-height: 25px; }
     header > nav > img {
       margin: 0 auto;
       display: block;

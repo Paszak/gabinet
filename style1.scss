@@ -24,6 +24,7 @@ $background_test: #a9e5c1;
 
 body {
 	font-family: $font;
+	background-color: #c9edd7;
 }
 
 .clearfix:before, .clearfix:after {
@@ -89,12 +90,11 @@ header {
 	width: 100%;
 	top: 0px;
 	z-index: 1000;
-	background-color: #0D988E;
+	background-color: $najjasniejszy;
 	> nav {
-		
 		min-height: 50px;
 		> ul {
-			margin-top: 12px;
+			margin: 0px;
 			padding: 0;
 			list-style-type: none;
 			float: right;
@@ -104,13 +104,13 @@ header {
 				> a {
 					display: block;
 					line-height: 50px;
-					padding: 0 20px;
+					padding: 15px 20px;
 					text-decoration: none;
-					color: #fff;
+					color: $najciemniejszy;
 					text-transform: uppercase;
 					&:hover {
-						background-color: #A9E5E3;
-						color: $hover_green;
+						background-color: $jasniejszy;
+						color: #113C21;
 					}
 				}
 			}
@@ -173,7 +173,7 @@ header {
 	
 	p {
 		padding: 15px;
-		color: #B0B0B0;
+		color: $najciemniejszy;
 	}
 }
 
@@ -309,6 +309,7 @@ header {
 
 .tablet {
 	background-color: $lightgrey;
+	// background-color: $najciemniejszy;
 	padding: 30px 0;
 	img {
 		width: 100%;
@@ -447,8 +448,12 @@ footer {
 				> li {
 					display: block;
 					margin-top: 0px;
-					margin-left: 0
+					margin-left: 0;
+					> a {
+					line-height: 25px;
+					}
 				}
+
 			}
 			
 			> img {

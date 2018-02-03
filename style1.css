@@ -90,7 +90,7 @@ header {
       float: right; }
       header > nav > ul > li {
         display: inline-block;
-        margin-left: 30px; }
+        margin-left: 50px; }
         header > nav > ul > li > a {
           display: block;
           line-height: 50px;
@@ -335,24 +335,27 @@ footer {
   [class^=col-] {
     padding: 12px; }
 
-  header > nav ul {
-    display: block;
-    float: none;
-    text-align: center;
-    padding: 0; }
-    header > nav ul > li {
+  header {
+    position: static; }
+    header > nav ul {
       display: block;
-      margin-top: 20px;
-      margin-left: 0; }
-  header > nav > img {
-    margin: 0 auto;
-    display: block;
-    float: none;
-    text-align: center;
-    padding: 0; }
+      float: none;
+      text-align: center;
+      padding: 0; }
+      header > nav ul > li {
+        display: block;
+        margin-top: 0px;
+        margin-left: 0; }
+    header > nav > img {
+      margin: 0 auto;
+      display: block;
+      float: none;
+      text-align: center;
+      padding: 0; }
 
   .hero {
-    position: relative; }
+    position: relative;
+    margin-top: 0; }
     .hero .slogan {
       position: absolute;
       background-color: rgba(0, 0, 0, 0.5);

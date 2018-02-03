@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$baza: #4ACE7F;
+$jasniejszy: #70DF9D;
+$najjasniejszy: #A3EFC2;
+$ciemniejszy: #2BBD66;
+$najciemniejszy: #07AE4B;
+
+
 $dark-green: #007c71;
 $font: 'Open Sans', sans-serif;
 $grey: #313332;
@@ -6,9 +13,9 @@ $hover_green:#004C46;	// $hover_green: #00C7E4;
 $lightgrey: #5B5B5B;
 $background_test: #a9e5c1;
 
-header {
-	background-color: #0D988E;
-}
+// header {
+// 	background-color: #0D988E;
+// }
 
 * {
 	box-sizing: border-box;
@@ -78,15 +85,22 @@ h3 {
 /* Header */
 
 header {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1000;
+	background-color: #0D988E;
 	> nav {
-		background-color: #0D988E;
+		
 		min-height: 50px;
 		> ul {
-			margin-top: 25px;
+			margin-top: 12px;
+			padding: 0;
 			list-style-type: none;
 			float: right;
 			> li {
 				display: inline-block;
+				margin-left: 30px;
 				> a {
 					display: block;
 					line-height: 50px;
@@ -102,7 +116,8 @@ header {
 			}
 		}
 		img {
-			padding: 10px 0;
+			max-width: 275px;
+			max-height: 80px;
 		}
 	}
 }
@@ -114,6 +129,7 @@ header {
 	height: 400px;
 	background-size: cover;
 	background-position: top;
+	margin-top: 80px;
 	.slogan {
 		background-color: rgba(0, 0, 0, 0.5);
 		float: right;
@@ -430,6 +446,7 @@ footer {
 				> li {
 					display: block;
 					margin-top: 20px;
+					margin-left: 0
 				}
 			}
 			

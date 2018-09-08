@@ -9,13 +9,10 @@ $najciemniejszy: #07AE4B;
 $dark-green: #007c71;
 $font: 'Open Sans', sans-serif;
 $grey: #313332;
-$hover_green:#004C46;	// $hover_green: #00C7E4;
+$hover_green:#004C46;	
 $lightgrey: #5B5B5B;
 $background_test: #a9e5c1;
 
-// header {
-// 	background-color: #0D988E;
-// }
 
 * {
 	box-sizing: border-box;
@@ -125,7 +122,7 @@ header {
 /* Welcome section */
 
 .hero {
-	background-image: url(img/smile.jpg);
+	background-image: url(../img/smile.jpg);
 	height: 400px;
 	background-size: cover;
 	background-position: top;
@@ -256,25 +253,6 @@ header {
 		text-align: center;
 	}
 	
-	// .portret {
-	// 	width: 200px;
-	// 	height: 200px;
-	// 	border-radius: 50%;
-	// 	background-color: grey;
-	// 	border: 0 #fff;
-	// 	margin: 0 auto;
-	// 	> p {
-	// 		line-height: 200px;
-	// 		display: none;
-	// 		color: white;
-	// 	}
-		
-	// 	&:hover {
-	// 		> p{
-	// 			display: block;
-	// 		}
-	// 	}
-	// }
 	
 	.portret {
 		> img {
@@ -419,7 +397,7 @@ footer {
 
 // For tablets
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 	.col-s-1 {width: 8.334%}
 	.col-s-2 {width: 16.667%}
 	.col-s-3 {width: 25%}
@@ -500,6 +478,9 @@ footer {
 
 	.tablet {
 		padding: 0;
+		h1 {
+			text-align: center;
+		}
 	}
 
 	footer {

@@ -42,39 +42,29 @@ h3 {
 @media (min-width: 768px) {
   .col-m-1 {
     width: 8.334%; }
-
   .col-m-2 {
     width: 16.667%; }
-
   .col-m-3 {
     width: 25%; }
-
   .col-m-4 {
     width: 33.334%; }
-
   .col-m-5 {
     width: 41.667%; }
-
   .col-m-6 {
     width: 50%; }
-
   .col-m-7 {
     width: 58.334%; }
-
   .col-m-8 {
     width: 66.667%; }
-
   .col-m-9 {
     width: 75%; }
-
   .col-m-10 {
     width: 83.334%; }
-
   .col-m-11 {
     width: 91.667%; }
-
   .col-m-12 {
     width: 100%; } }
+
 /* Header */
 header {
   position: fixed;
@@ -108,7 +98,7 @@ header {
 
 /* Welcome section */
 .hero {
-  background-image: url(img/smile.jpg);
+  background-image: url(../img/smile.jpg);
   height: 400px;
   background-size: cover;
   background-position: top;
@@ -138,10 +128,13 @@ header {
     background-color: #004C46; }
     .benefits button:hover + h2 {
       color: #004C46; }
+
 .benefits .row {
   text-align: center; }
+
 .benefits h2 {
   margin: 25px 0; }
+
 .benefits p {
   padding: 15px;
   color: #07AE4B; }
@@ -199,6 +192,7 @@ header {
 /*team*/
 .team .row {
   text-align: center; }
+
 .team .portret > img {
   width: 200px;
   height: 200px;
@@ -211,6 +205,7 @@ header {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
+
 .team [class^=col-] > p {
   text-align: center;
   width: 200px;
@@ -243,11 +238,13 @@ header {
 /*Numbers section*/
 .numbers .row {
   text-align: center; }
+
 .numbers p {
   color: #00655E;
   font-size: 20px;
   font-weight: bolder;
   text-transform: uppercase; }
+
 .numbers h1 {
   font-size: 60px;
   color: #004C46; }
@@ -296,46 +293,33 @@ footer {
     padding: 20px 0;
     color: #fff; }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .col-s-1 {
     width: 8.334%; }
-
   .col-s-2 {
     width: 16.667%; }
-
   .col-s-3 {
     width: 25%; }
-
   .col-s-4 {
     width: 33.334%; }
-
   .col-s-5 {
     width: 41.667%; }
-
   .col-s-6 {
     width: 50%; }
-
   .col-s-7 {
     width: 58.334%; }
-
   .col-s-8 {
     width: 66.667%; }
-
   .col-s-9 {
     width: 75%; }
-
   .col-s-10 {
     width: 83.334%; }
-
   .col-s-11 {
     width: 91.667%; }
-
   .col-s-12 {
     width: 100%; }
-
   [class^=col-] {
     padding: 12px; }
-
   header {
     position: static; }
     header > nav ul {
@@ -355,7 +339,6 @@ footer {
       float: none;
       text-align: center;
       padding: 0; }
-
   .hero {
     position: relative;
     margin-top: 0; }
@@ -370,20 +353,17 @@ footer {
       text-align: center; }
       .hero .slogan > h1 {
         margin-top: 150px; }
-
   .gallery [class^=col-]:hover .layer {
     background-color: rgba(0, 0, 0, 0); }
   .gallery [class^=col-] .icon-btnl, .gallery [class^=col-] .icon-btnr {
     display: block; }
-
   .tablet {
     padding: 0; }
-
+    .tablet h1 {
+      text-align: center; }
   footer .row > [class^=col-] {
     margin-top: 15px; }
   footer .row [class^=col-] > .row > [class^=col-] {
     padding: 0; }
     footer .row [class^=col-] > .row > [class^=col-] > p {
       padding: 10px 0; } }
-
-/*# sourceMappingURL=style1.css.map */
